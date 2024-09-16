@@ -1,0 +1,1370 @@
+{
+    "Rel1": {
+        "Chinese": "位于",
+        "Chinese-v": "位于",
+        "English": [
+            "Located",
+            "location"
+        ],
+        "Description": "表示一个实体在另一个实体的特定位置上",
+        "Examples": "幽兰(orchid)-山谷(valley)"
+    },
+    "Rel2": {
+        "Chinese": "部分-整体",
+        "Chinese-v": "包含",
+        "English": [
+            "Part-Whole",
+            "Part of",
+            "has part"
+        ],
+        "Description": "表示一个实体是另一个实体的一部分",
+        "Examples": "车轮(wheel)-汽车(car)"
+    },
+    "Rel3": {
+        "Chinese": "家庭关系",
+        "Chinese-v": "属于",
+        "English": "Family",
+        "Dcscriptions": "表示两个实体之间的家庭关系",
+        "Examples": "母亲(mothcr)-奶奶(grandmothcr)"
+    },
+    "Rel4": {
+        "Chinese": "泛化关系",
+        "Chinese-v": "包括",
+        "English": "General-Special",
+        "Dcscriptions": "表示一个实体包括另一个实体作为其一般类别",
+        "Examples": "鱼(fish)-鲫鱼(carp)"
+    },
+    "Rel5": {
+        "Chinese": "社交关系",
+        "Chinese-v": "交往",
+        "English": "Social",
+        "Description": "表示两个实体之间的社交或人际关系",
+        "Examples": "母亲(mother)-邻里(neighbour)"
+    },
+    "Rel6": {
+        "Chinese": "拥有关系",
+        "Chinese-v": "拥有",
+        "English": "Ownership",
+        "Description": "表示一个实体拥有另一个实体",
+        "Examples": "村民(villager)-旧屋(house)"
+    },
+    "Rel7": {
+        "Chinese": "使用",
+        "Chinese-v": "使用",
+        "English": "Use",
+        "Description": "表示一个实体被用于执行特定功能或目的",
+        "Examples": "爷爷(grandfather)-毛笔(brush)"
+    },
+    "Rel8": {
+        "Chinese": "创造",
+        "Chinese-v": "创造",
+        "English": "Create",
+        "Description": "导致某事物的产生或发生",
+        "Examples": "男人(man)-陶器(pottery)"
+    },
+    "Rel9": {
+        "Chinese": "邻近关系",
+        "Chinese-v": "靠近",
+        "English": "Near",
+        "Description": "表示一个实体与另一个实体之间距离短暂",
+        "Examples": "山(hill)-县城(town)"
+    },
+    "Rel10": {
+        "Chinese": "首都",
+        "Chinese-v": "是...的首都",
+        "English": "Capital of",
+        "Description": "表示一个实体是另一个实体的首都",
+        "Examples": "中国(China)-北京(Beijing)"
+    },
+    "Rel11": {
+        "Chinese": "政府首脑",
+        "Chinese-v": "领导",
+        "English": "Head of Government",
+        "Description": "表示一个实体是政府的领导人",
+        "Examples": "总理(Prime Minister)-国家(country)"
+    },
+    "Rel12": {
+        "Chinese": "国家",
+        "Chinese-v": "属于",
+        "English": "Country",
+        "Description": "表示一个实体属于某个国家",
+        "Examples": "巴黎(Paris)-法国(France)"
+    },
+    "Rel13": {
+        "Chinese": "出生地",
+        "Chinese-v": "出生于",
+        "English": "Place of Birth",
+        "Description": "表示一个实体的出生地",
+        "Examples": "爱因斯坦(Einstein)-乌尔姆(Ulm)"
+    },
+    "Rel14": {
+        "Chinese": "死亡地",
+        "Chinese-v": "死于",
+        "English": "Place of Death",
+        "Description": "表示一个实体的死亡地",
+        "Examples": "列宁(Lenin)-莫斯科(Moscow)"
+    },
+    "Rel15": {
+        "Chinese": "父亲",
+        "Chinese-v": "是...的父亲",
+        "English": "Father",
+        "Description": "表示一个实体是另一个实体的父亲",
+        "Examples": "儿子(Son)-父亲(Father)"
+    },
+    "Rel16": {
+        "Chinese": "母亲",
+        "Chinese-v": "是...的母亲",
+        "English": "Mother",
+        "Description": "表示一个实体是另一个实体的母亲",
+        "Examples": "女儿(Daughter)-母亲(Mother)"
+    },
+    "Rel17": {
+        "Chinese": "妻子",
+        "Chinese-v": "妻子",
+        "English": [
+            "Wife",
+            "Spouse"
+        ],
+        "Description": "指定某人的妻子",
+        "Examples": "人物(Person) - 妻子(Wife) - 另一个人物(Another Person)"
+    },
+    "Rel18": {
+        "Chinese": "丈夫",
+        "Chinese-v": "丈夫",
+        "English": [
+            "Husband",
+            "Spouse"
+        ],
+        "Description": "指定某人的丈夫",
+        "Examples": "人物(Person) - 丈夫(Husband) - 另一个人物(Another Person)"
+    },
+    "Rel19": {
+        "Chinese": "国籍",
+        "Chinese-v": "是...的国籍",
+        "English": "Country of Citizenship",
+        "Description": "表示一个实体的国籍",
+        "Examples": "爱因斯坦(Einstein)-瑞士(Switzerland)"
+    },
+    "Rel20": {
+        "Chinese": "实例",
+        "Chinese-v": "是...的实例",
+        "English": "Instance of",
+        "Description": "表示一个实体是某个概念或类别的实例",
+        "Examples": "巴黎(Paris)-城市(city)"
+    },
+    "Rel21": {
+        "Chinese": "国家元首",
+        "Chinese-v": "是...的国家元首",
+        "English": "Head of State",
+        "Description": "表示一个实体是某个国家的元首",
+        "Examples": "总统(President)-国家(country)"
+    },
+    "Rel22": {
+        "Chinese": "官方语言",
+        "Chinese-v": "是...的官方语言",
+        "English": "Official Language",
+        "Description": "表示一个实体的官方语言",
+        "Examples": "法国(France)-法语(French)"
+    },
+    "Rel23": {
+        "Chinese": "担任职务",
+        "Chinese-v": "担任",
+        "English": "Position Held",
+        "Description": "表示一个实体担任的职务",
+        "Examples": "乔布斯(Jobs)-苹果公司(Apple Inc.)的CEO"
+    },
+    "Rel24": {
+        "Chinese": "子女",
+        "Chinese-v": "是...的子女",
+        "English": "Child",
+        "Description": "表示一个实体是另一个实体的子女",
+        "Examples": "儿子(Son)-父母(Parents)"
+    },
+    "Rel25": {
+        "Chinese": "体育团队成员",
+        "Chinese-v": "是...的成员",
+        "English": "Member of Sports Team",
+        "Description": "表示一个实体是某个体育团队的成员",
+        "Examples": "乔丹(Jordan)-芝加哥公牛队(Chicago Bulls)"
+    },
+    "Rel26": {
+        "Chinese": "导演",
+        "Chinese-v": "是...的导演",
+        "English": "Director",
+        "Description": "表示一个实体是某个电影或戏剧的导演",
+        "Examples": "斯皮尔伯格(Spielberg)-《辛德勒的名单》(Schindler's List)"
+    },
+    "Rel27": {
+        "Chinese": "编剧",
+        "Chinese-v": "是...的编剧",
+        "English": "Screenwriter",
+        "Description": "表示一个实体是某个电影或戏剧的编剧",
+        "Examples": "尼科尔斯(Nichols)-《百老汇之恋》(Theater of Love)"
+    },
+    "Rel28": {
+        "Chinese": "毕业院校",
+        "Chinese-v": "毕业于",
+        "English": "Educated at",
+        "Description": "表示一个实体在某个学校或教育机构接受教育",
+        "Examples": "爱因斯坦(Einstein)-苏黎世联邦理工学院(ETH Zurich)"
+    },
+    "Rel29": {
+        "Chinese": "作曲家",
+        "Chinese-v": "是...的作曲家",
+        "English": "Composer",
+        "Description": "表示一个实体是某个音乐作品的作曲家",
+        "Examples": "贝多芬(Beethoven)-《命运交响曲》(Symphony No. 5)"
+    },
+    "Rel30": {
+        "Chinese": "作者",
+        "Chinese-v": "是...的作者",
+        "English": "Author",
+        "Description": "表示一个实体是某个作品的作者",
+        "Examples": "莎士比亚(Shakespeare)-《哈姆雷特》(Hamlet)"
+    },
+    "Rel31": {
+        "Chinese": "雇主",
+        "Chinese-v": "是...的雇主",
+        "English": "Employer",
+        "Description": "表示一个实体是另一个实体的雇主",
+        "Examples": "乔布斯(Jobs) - 苹果公司(Apple Inc.)"
+    },
+    "Rel32": {
+        "Chinese": "创始人",
+        "Chinese-v": "创办",
+        "English": [
+            "Founder",
+            "founded by"
+        ],
+        "Description": "表示一个实体是由另一个实体创办的",
+        "Examples": "苹果公司(Apple Inc.)-乔布斯(Jobs)"
+    },
+    "Rel33": {
+        "Chinese": "联盟",
+        "Chinese-v": "属于",
+        "English": "League",
+        "Description": "表示一个实体属于某个联盟或组织",
+        "Examples": "巴塞罗那足球队(FC Barcelona)-西班牙足球联赛(La Liga)"
+    },
+    "Rel34": {
+        "Chinese": "出版商",
+        "Chinese-v": "是...的出版商",
+        "English": "Publisher",
+        "Description": "表示一个实体是某个出版物的出版商",
+        "Examples": "哈珀·柯林斯(HarperCollins)-《哈利·波特》系列(Harry Potter series)"
+    },
+    "Rel35": {
+        "Chinese": "上映时间",
+        "Chinese-v": "上映于",
+        "English": "Release Date",
+        "Description": "表示一个实体的上映或发布时间",
+        "Examples": "《阿凡达》(Avatar)-2009年12月18日"
+    },
+    "Rel36": {
+        "Chinese": "嘉宾",
+        "Chinese-v": "是...的嘉宾",
+        "English": "Guest",
+        "Description": "表示一个实体是某个活动或节目的嘉宾",
+        "Examples": "张三(Zhang San)-脱口秀节目(Talk Show)"
+    },
+    "Rel37": {
+        "Chinese": "配音",
+        "Chinese-v": "为...配音",
+        "English": "Voice Actor",
+        "Description": "表示一个实体为某个角色或作品进行配音",
+        "Examples": "汤姆·汉克斯(Tom Hanks) -《玩具总动员》(Toy Story)"
+    },
+    "Rel38": {
+        "Chinese": "主题曲",
+        "Chinese-v": "是...的主题曲",
+        "English": "Theme Song",
+        "Description": "表示一个实体是某个作品的主题曲",
+        "Examples": "《冰与火之歌》(Game of Thrones)-主题曲"
+    },
+    "Rel39": {
+        "Chinese": "代言人",
+        "Chinese-v": "是...的代言人",
+        "English": "Spokesperson",
+        "Description": "表示一个实体是某个品牌或产品的代言人",
+        "Examples": "王俊凯(Wang Junkai)-可口可乐(Coca-Cola)"
+    },
+    "Rel40": {
+        "Chinese": "所属专辑",
+        "Chinese-v": "收录于",
+        "English": "Belongs to Album",
+        "Description": "表示一个实体所属的音乐专辑",
+        "Examples": "歌曲(Song)-音乐专辑(Music Album)"
+    },
+    "Rel41": {
+        "Chinese": "专业代码",
+        "Chinese-v": "是...的专业代码",
+        "English": "Professional Code",
+        "Description": "表示一个实体所属的学科或专业的代码",
+        "Examples": "学科专业 - Text"
+    },
+    "Rel42": {
+        "Chinese": "占地面积",
+        "Chinese-v": "占地面积",
+        "English": "Occupies Area",
+        "Description": "表示一个实体所占据的地理面积",
+        "Examples": "中央公园(Central Park)-占地面积"
+    },
+    "Rel43": {
+        "Chinese": "邮政编码",
+        "Chinese-v": "邮政编码",
+        "English": "Postal Code",
+        "Description": "表示一个实体所在的地理区域的邮政编码",
+        "Examples": "行政区(Administrative Region)-Text"
+    },
+    "Rel44": {
+        "Chinese": "票房",
+        "Chinese-v": "票房",
+        "English": "Box Office",
+        "Description": "表示一个实体在影视或演出行业的票房收入",
+        "Examples": "电影(Movie)-票房(Box Office)"
+    },
+    "Rel45": {
+        "Chinese": "注册资本",
+        "Chinese-v": "注册资本",
+        "English": "Registered Capital",
+        "Description": "表示一个实体在注册时设定的资本金额",
+        "Examples": "公司(Company)-注册资本(Registered Capital)"
+    },
+    "Rel46": {
+        "Chinese": "主角",
+        "Chinese-v": "是...的主角",
+        "English": "Protagonist",
+        "Description": "表示一个实体是某个故事、戏剧或电影的主要角色",
+        "Examples": "电影(Movie)-主角(Protagonist)"
+    },
+    "Rel47": {
+        "Chinese": "气候",
+        "Chinese-v": "气候",
+        "English": "Climate",
+        "Description": "表示一个实体所处地区的气候特征",
+        "Examples": "城市(City)-气候(Climate)"
+    },
+    "Rel48": {
+        "Chinese": "歌手",
+        "Chinese-v": "是...的歌手",
+        "English": "Singer",
+        "Description": "表示一个实体是某个歌曲或音乐作品的演唱者",
+        "Examples": "歌曲(Song)-歌手(Singer)"
+    },
+    "Rel49": {
+        "Chinese": "获奖",
+        "Chinese-v": "获得",
+        "English": [
+            "Awarded",
+            "award received"
+        ],
+        "Description": "表示一个实体获得了某个奖项或荣誉",
+        "Examples": "电影(Movie)-奥斯卡奖(Oscar Award)"
+    },
+    "Rel50": {
+        "Chinese": "校长",
+        "Chinese-v": "是...的校长",
+        "English": "Principal",
+        "Description": "表示一个实体是某个学校的校长",
+        "Examples": "学校(School)-校长(Principal)"
+    },
+    "Rel51": {
+        "Chinese": "朝代",
+        "Chinese-v": "属于",
+        "English": "Dynasty",
+        "Description": "表示一个实体所属的历史朝代",
+        "Examples": "王者(King)-朝代(Dynasty)"
+    },
+    "Rel52": {
+        "Chinese": "饰演",
+        "Chinese-v": "饰演",
+        "English": "Portrayed by",
+        "Description": "表示一个实体在电影、电视剧等作品中扮演的角色",
+        "Examples": "角色(Character)-演员(Actor)"
+    },
+    "Rel53": {
+        "Chinese": "祖籍",
+        "Chinese-v": "祖籍于",
+        "English": "Ancestral Origin",
+        "Description": "表示一个人物的祖先来自某个地点",
+        "Examples": "人物(Person)-地点(Location)"
+    },
+    "Rel54": {
+        "Chinese": "人口数量",
+        "Chinese-v": "人口数量",
+        "English": "Population",
+        "Description": "表示一个实体所在地区的人口数量",
+        "Examples": "城市(City)-人口数量(Population)"
+    },
+    "Rel55": {
+        "Chinese": "制片人",
+        "Chinese-v": "是...的制片人",
+        "English": "Producer",
+        "Description": "表示一个实体是某个电影或节目的制片人",
+        "Examples": "电影(Movie)-制片人(Producer)"
+    },
+    "Rel56": {
+        "Chinese": "修业年限",
+        "Chinese-v": "修业年限",
+        "English": "Years of Study",
+        "Description": "表示一个实体在某个学科或专业上的修业年限",
+        "Examples": "专业(Major)-修业年限(Years of Study)"
+    },
+    "Rel57": {
+        "Chinese": "董事长",
+        "Chinese-v": "是...的董事长",
+        "English": "Chairman",
+        "Description": "表示一个实体是某个组织或公司的董事长",
+        "Examples": "公司(Company)-董事长(Chairman)"
+    },
+    "Rel58": {
+        "Chinese": "作词",
+        "Chinese-v": "是...的作词",
+        "English": [
+            "Lyricist",
+            "Lyrics by"
+        ],
+        "Description": "表示一个实体是某个音乐作品的作词者",
+        "Examples": "歌曲 - 人物"
+    },
+    "Rel59": {
+        "Chinese": "改编自",
+        "Chinese-v": "改编自",
+        "English": "Adapted from",
+        "Description": "表示一个作品是基于另一个作品进行的改编",
+        "Examples": "电影(Movie)-小说(Novel)"
+    },
+    "Rel60": {
+        "Chinese": "出品公司",
+        "Chinese-v": "出品",
+        "English": "Production Company",
+        "Description": "表示一个实体是某个影视作品的出品公司",
+        "Examples": "电影(Movie)-企业"
+    },
+    "Rel61": {
+        "Chinese": "作曲",
+        "Chinese-v": "作曲",
+        "English": "Composer",
+        "Description": "表示一个实体是某个音乐作品的作曲者",
+        "Examples": "音乐作品(Musical Composition)-人物"
+    },
+    "Rel62": {
+        "Chinese": "主演",
+        "Chinese-v": "主演",
+        "English": "Lead Actor/Actress",
+        "Description": "表示一个影视作品的主要演员",
+        "Examples": "影视作品(Film/TV Show)-人物(Character)"
+    },
+    "Rel63": {
+        "Chinese": "主持人",
+        "Chinese-v": "主持",
+        "English": "Host",
+        "Description": "表示一个实体是某个节目或活动的主持人",
+        "Examples": "电视综艺(TV Variety Show)-人物"
+    },
+    "Rel64": {
+        "Chinese": "成立日期",
+        "Chinese-v": "成立于",
+        "English": [
+            "Establishment Date",
+            "inception"
+        ],
+        "Description": "表示一个实体的成立日期",
+        "Examples": "机构 - Date"
+    },
+    "Rel65": {
+        "Chinese": "成立地点",
+        "Chinese-v": "成立于",
+        "English": "Location of Formation",
+        "Description": "表示一个团体或组织成立的地点",
+        "Examples": "团体或组织(Group or Organization)-成立地点(Location of Formation)"
+    },
+    "Rel66": {
+        "Chinese": "海拔",
+        "Chinese-v": "海拔",
+        "English": "Altitude",
+        "Description": "表示一个实体的海拔高度",
+        "Examples": "地点 - Number"
+    },
+    "Rel67": {
+        "Chinese": "号",
+        "Chinese-v": "号",
+        "English": "Courtesy Name",
+        "Description": "表示历史人物的别称或号",
+        "Examples": "历史人物(Historical Figure)-Text"
+    },
+    "Rel68": {
+        "Chinese": "所有者",
+        "Chinese-v": "拥有",
+        "English": "Owned by",
+        "Description": "表示一个实体是另一个实体的所有者",
+        "Examples": "房产(Property)-所有者(Owner)"
+    },
+    "Rel69": {
+        "Chinese": "解散、废除或拆除",
+        "Chinese-v": "于...解散、废除或拆除",
+        "English": "Dissolved, Abolished, or Demolished",
+        "Description": "表示一个实体在某个时间点被解散、废除或拆除",
+        "Examples": "组织(Organization)-解散、废除或拆除(Dissolved, Abolished, or Demolished)"
+    },
+    "Rel70": {
+        "Chinese": "后继于",
+        "Chinese-v": "后继于",
+        "English": "Follows",
+        "Description": "表示一个实体在某个时期或领域中跟随另一个实体",
+        "Examples": "后印象派(Post-Impressionism)-印象派(Impressionism)"
+    },
+    "Rel71": {
+        "Chinese": "上级分类",
+        "Chinese-v": "属于",
+        "English": "Parent Taxon",
+        "Description": "表示一个实体属于某个上级分类",
+        "Examples": "Albertosaurus(Albertosaurus)-Albertosaurinae(Albertosaurinae)"
+    },
+    "Rel72": {
+        "Chinese": "族群",
+        "Chinese-v": "属于",
+        "English": "Ethnic Group",
+        "Description": "表示一个实体所属的族群",
+        "Examples": "人群(Population)-族群(Ethnic Group)"
+    },
+    "Rel73": {
+        "Chinese": "制造商",
+        "Chinese-v": "是...的制造商",
+        "English": "Manufacturer",
+        "Description": "表示一个实体是某个产品的制造商",
+        "Examples": "产品(Product)-制造商(Manufacturer)"
+    },
+    "Rel74": {
+        "Chinese": "开发者",
+        "Chinese-v": "是...的开发者",
+        "English": "Developer",
+        "Description": "表示一个实体是某个产品或项目的开发者",
+        "Examples": "产品(Product)-开发者(Developer)"
+    },
+    "Rel75": {
+        "Chinese": "位于或临近水体",
+        "Chinese-v": "位于或临近",
+        "English": "Located in or next to Body of Water",
+        "Description": "表示一个实体位于或临近某个水体",
+        "Examples": "地点(Location)-水体(Body of Water)"
+    },
+    "Rel76": {
+        "Chinese": "子类",
+        "Chinese-v": "是...的子类",
+        "English": "Subclass of",
+        "Description": "表示一个实体是某个类别的子类",
+        "Examples": "实体(Entity)-类别(Category)"
+    },
+    "Rel77": {
+        "Chinese": "主席",
+        "Chinese-v": "是...的主席",
+        "English": "Chairperson",
+        "Description": "表示一个实体是某个组织或会议的主席",
+        "Examples": "组织(Organization)-主席(Chairperson)"
+    },
+    "Rel78": {
+        "Chinese": "原产地",
+        "Chinese-v": "来自",
+        "English": "Country of Origin",
+        "Description": "表示一个实体的原产地",
+        "Examples": "产品(Product)-原产地(Country of Origin)"
+    },
+    "Rel79": {
+        "Chinese": "居住地",
+        "Chinese-v": "居住于",
+        "English": "Residence",
+        "Description": "表示一个实体的居住地",
+        "Examples": "个人(Person)-居住地(Residence)"
+    },
+    "Rel80": {
+        "Chinese": "出生日期",
+        "Chinese-v": "出生于",
+        "English": "Date of Birth",
+        "Description": "表示一个实体的出生日期",
+        "Examples": "个人(Person)-出生日期(Date of Birth)"
+    },
+    "Rel81": {
+        "Chinese": "死亡日期",
+        "Chinese-v": "死于",
+        "English": "Date of Death",
+        "Description": "表示一个实体的死亡日期",
+        "Examples": "个人(Person)-死亡日期(Date of Death)"
+    },
+    "Rel82": {
+        "Chinese": "出版日期",
+        "Chinese-v": "出版于",
+        "English": "Publication Date",
+        "Description": "表示一个实体的出版日期",
+        "Examples": "作品(Work)-出版日期(Publication Date)"
+    },
+    "Rel83": {
+        "Chinese": "开始时间",
+        "Chinese-v": "开始于",
+        "English": "Start Time",
+        "Description": "表示一个实体的开始时间",
+        "Examples": "活动(Activity)-开始时间(Start Time)"
+    },
+    "Rel84": {
+        "Chinese": "结束时间",
+        "Chinese-v": "结束于",
+        "English": "End Time",
+        "Description": "表示一个实体的结束时间",
+        "Examples": "活动(Activity)-结束时间(End Time)"
+    },
+    "Rel85": {
+        "Chinese": "位于地形特征上",
+        "Chinese-v": "位于",
+        "English": "Located on Terrain Feature",
+        "Description": "表示一个实体位于某个地形特征上",
+        "Examples": "地点(Location)-地形特征(Terrain Feature)"
+    },
+    "Rel86": {
+        "Chinese": "受...影响",
+        "Chinese-v": "受...影响",
+        "English": "Influenced by",
+        "Description": "表示一个实体受到某个因素或人物的影响",
+        "Examples": "实体(Entity)-影响(Influence)"
+    },
+    "Rel87": {
+        "Chinese": "母公司",
+        "Chinese-v": "属于",
+        "English": "Parent Organization",
+        "Description": "表示一个实体属于另一个实体的母公司",
+        "Examples": "实体(Entity)-母公司(Parent Organization)"
+    },
+    "Rel88": {
+        "Chinese": "工作地点",
+        "Chinese-v": "在...工作",
+        "English": "Work Location",
+        "Description": "表示一个实体的工作地点",
+        "Examples": "个人(Person)-工作地点(Work Location)"
+    },
+    "Rel89": {
+        "Chinese": "生产产品或材料",
+        "Chinese-v": "生产",
+        "English": "Product or Material Produced",
+        "Description": "表示一个实体生产某种产品或材料",
+        "Examples": "生产厂商(Manufacturer)-产品或材料(Product or Material Produced)"
+    },
+    "Rel90": {
+        "Chinese": "失业率",
+        "Chinese-v": "失业率",
+        "English": "Unemployment Rate",
+        "Description": "表示某个地区或群体的失业率",
+        "Examples": "地区或群体(Area or Group)-失业率(Unemployment Rate)"
+    },
+    "Rel91": {
+        "Chinese": "参与者",
+        "Chinese-v": "是...的参与者",
+        "English": [
+            "Participant of",
+            "participant"
+        ],
+        "Description": "表示一个实体是某个活动或项目的参与者",
+        "Examples": "活动或项目(Activity or Project)-参与者(Participant)"
+    },
+    "Rel92": {
+        "Chinese": "兄弟姐妹",
+        "Chinese-v": "是...的兄弟姐妹",
+        "English": "Sibling",
+        "Description": "表示一个实体是另一个实体的兄弟姐妹关系",
+        "Examples": "实体(Entity)-兄弟姐妹(Sibling)"
+    },
+    "Rel93": {
+        "Chinese": "替代",
+        "Chinese-v": "替代",
+        "English": [
+            "Replaces",
+            "replaced by"
+        ],
+        "Description": "表示一个实体替代另一个实体",
+        "Examples": "实体(Entity)-替代(Replaces)"
+    },
+    "Rel94": {
+        "Chinese": "山脉",
+        "Chinese-v": "属于",
+        "English": "Mountain Range",
+        "Description": "表示一个地理实体属于某个山脉或山系",
+        "Examples": "地理实体(Geographical Item)-山脉(Mountain Range)"
+    },
+    "Rel95": {
+        "Chinese": "宗教",
+        "Chinese-v": "信仰",
+        "English": "Religion",
+        "Description": "表示一个实体的宗教信仰,可以是个人、组织或宗教建筑,或与此主题相关联",
+        "Examples": "实体(Entity)-宗教(Religion)"
+    },
+    "Rel96": {
+        "Chinese": "交通枢纽服务地",
+        "Chinese-v": "服务于",
+        "English": "Place Served by Transport Hub",
+        "Description": "表示一个实体是某个交通枢纽（如机场、火车站等）所服务的地区或实体",
+        "Examples": "交通枢纽(Transport Hub)-服务地(Place Served)"
+    },
+    "Rel97": {
+        "Chinese": "包含行政区域实体",
+        "Chinese-v": "包含",
+        "English": "Contains Administrative Territorial Entity",
+        "Description": "表示一个行政区域实体包含另一个行政区域实体,或表示一个行政区域实体的直接下级行政区域实体",
+        "Examples": "行政区域实体(Administrative Territorial Entity)-包含行政区域实体(Contains Administrative Territorial Entity)"
+    },
+    "Rel98": {
+        "Chinese": "公民国家",
+        "Chinese-v": "是...的公民国家",
+        "English": "Country of Citizenship",
+        "Description": "表示一个国家承认某个主体为其公民",
+        "Examples": "个人(Person)-公民国家(Country of Citizenship)"
+    },
+    "Rel99": {
+        "Chinese": "原始网络",
+        "Chinese-v": "在...原始网络上播出",
+        "English": "Original Network",
+        "Description": "表示广播或电视节目最初播出的网络,不包括后来的重播或额外的转播",
+        "Examples": "广播或电视节目(Radio or Television Show)-原始网络(Original Network)"
+    },
+    "Rel100": {
+        "Chinese": "遗产认定",
+        "Chinese-v": "是...的遗产认定",
+        "English": "Heritage Designation",
+        "Description": "表示一个文化或自然遗址的遗产认定",
+        "Examples": "文化或自然遗址(Cultural or Natural Site)-遗产认定(Heritage Designation)"
+    },
+    "Rel101": {
+        "Chinese": "表演者",
+        "Chinese-v": "是...的表演者",
+        "English": "Performer",
+        "Description": "表示与某个角色或音乐作品相关联的演员、音乐家、乐队或其他表演者",
+        "Examples": "角色或音乐作品(Role or Musical Work)-表演者(Performer)"
+    },
+    "Rel102": {
+        "Chinese": "建筑师",
+        "Chinese-v": "由...设计",
+        "English": "Architect",
+        "Description": "表示设计了这座建筑的个人或建筑公司",
+        "Examples": "建筑(Building)-建筑师(Architect)"
+    },
+    "Rel103": {
+        "Chinese": "原产国",
+        "Chinese-v": "来自",
+        "English": "Country of Origin",
+        "Description": "表示该物品（创意作品、食品、短语、产品等）的原产国",
+        "Examples": "物品(Item)-原产国(Country of Origin)"
+    },
+    "Rel104": {
+        "Chinese": "开发者",
+        "Chinese-v": "由...开发",
+        "English": "Developer",
+        "Description": "表示开发了该物品的组织或个人",
+        "Examples": "物品(Item)-开发者(Developer)"
+    },
+    "Rel105": {
+        "Chinese": "军种",
+        "Chinese-v": "属于",
+        "English": "Military Branch",
+        "Description": "表示这个军事单位、奖项、职务或个人所属的军种,例如皇家海军",
+        "Examples": "军事单位、奖项、职务或个人(Military Unit, Award, Office, or Person)-军种(Military Branch)"
+    },
+    "Rel106": {
+        "Chinese": "水系出口",
+        "Chinese-v": "流入",
+        "English": "Mouth of the Watercourse",
+        "Description": "表示水系流入的水体",
+        "Examples": "水系(Watercourse)-水系出口(Mouth of the Watercourse)"
+    },
+    "Rel107": {
+        "Chinese": "提名奖项",
+        "Chinese-v": "提名了",
+        "English": "Nominated for",
+        "Description": "表示一个人、组织或创意作品获得的奖项提名（源自“获得奖项”（属性P166））",
+        "Examples": "个人、组织或创意作品(Person, Organization, or Creative Work)-提名奖项(Nominated for)"
+    },
+    "Rel108": {
+        "Chinese": "成功候选人",
+        "Chinese-v": "成功候选人",
+        "English": "Successful Candidate",
+        "Description": "表示选举后当选的人",
+        "Examples": "选举(Election)-成功候选人(Successful Candidate)"
+    },
+    "Rel109": {
+        "Chinese": "后续",
+        "Chinese-v": "紧接着",
+        "English": "Followed by",
+        "Description": "表示一个系列中紧接在主体之后的项目【如果主体已被替换,例如政治职务,请使用\"replaced by\"(P1366)】",
+        "Examples": "系列中的项目(Series Item)-后续(Followed by)"
+    },
+    "Rel110": {
+        "Chinese": "所属政党",
+        "Chinese-v": "是...的成员",
+        "English": "Member of Political Party",
+        "Description": "表示某政治家所属或曾所属的政党",
+        "Examples": "政治家(Politician)-所属政党(Member of Political Party)"
+    },
+    "Rel111": {
+        "Chinese": "总部地点",
+        "Chinese-v": "设立总部",
+        "English": "Headquarters Location",
+        "Description": "表示一个组织的总部所在或曾所在的具体地点。是\"occupant\"(P466)的逆属性。",
+        "Examples": "组织(Organization)-总部地点(Headquarters Location)"
+    },
+    "Rel112": {
+        "Chinese": "乐器",
+        "Chinese-v": "演奏",
+        "English": "Instrument",
+        "Description": "表示某人演奏的乐器",
+        "Examples": "音乐家(Musician)-乐器(Instrument)"
+    },
+    "Rel113": {
+        "Chinese": "职业",
+        "Chinese-v": "从事",
+        "English": "Occupation",
+        "Description": "表示一个人的职业；参见“工作领域”(Property:P101)、“担任职务”(Property:P39)",
+        "Examples": "人(Person)-职业(Occupation)"
+    },
+    "Rel114": {
+        "Chinese": "子公司",
+        "Chinese-v": "是...的子公司",
+        "English": "Subsidiary",
+        "Description": "表示一个公司或组织的子公司,与母公司 (P749) 相反",
+        "Examples": "公司或组织(Company or Organization)-子公司(Subsidiary)"
+    },
+    "Rel115": {
+        "Chinese": "运营者",
+        "Chinese-v": "运营",
+        "English": "Operator",
+        "Description": "表示运营设备、设施或服务的个人、职业或组织；对于外交使团,请使用国家",
+        "Examples": "设备、设施或服务(Equipment, Facility, or Service)-运营者(Operator)"
+    },
+    "Rel116": {
+        "Chinese": "角色",
+        "Chinese-v": "包含角色",
+        "English": "Characters",
+        "Description": "表示出现在该作品中的角色（如戏剧、歌剧、轻歌剧、书籍、漫画、电影、电视剧、电子游戏）",
+        "Examples": "作品(Work)-角色(Characters)"
+    },
+    "Rel117": {
+        "Chinese": "占用者",
+        "Chinese-v": "占用",
+        "English": "Occupant",
+        "Description": "表示占用财产的个人或组织",
+        "Examples": "财产(Property)-占用者(Occupant)"
+    },
+    "Rel118": {
+        "Chinese": "类型",
+        "Chinese-v": "属于",
+        "English": "Genre",
+        "Description": "表示创意作品的类型或艺术家的工作领域 (P101)。使用“主要主题” (P921) 将创意作品与其主题关联",
+        "Examples": "创意作品(Creative Work)-类型(Genre)"
+    },
+    "Rel119": {
+        "Chinese": "支流",
+        "Chinese-v": "流入",
+        "English": "Tributary",
+        "Description": "表示流入主干河流（或母河流）的溪流或河流",
+        "Examples": "主干河流(Main River)-支流(Tributary)"
+    },
+    "Rel120": {
+        "Chinese": "获胜者",
+        "Chinese-v": "获胜",
+        "English": "Winner",
+        "Description": "表示某事件的获胜者 - 不用于奖项（使用P166）,也不用于战争或战斗",
+        "Examples": "事件(Event)-获胜者(Winner)"
+    },
+    "Rel121": {
+        "Chinese": "据称相同",
+        "Chinese-v": "据称是",
+        "English": "Said to be the Same as",
+        "Description": "表示该项目被认为与另一项目相同,但此说法存在争议",
+        "Examples": "项目(Item)-据称相同(Said to be the Same as)"
+    },
+    "Rel122": {
+        "Chinese": "联赛",
+        "Chinese-v": "参加",
+        "English": "League",
+        "Description": "表示团队或球员参加或曾参加的联赛",
+        "Examples": "团队或球员(Team or Player)-联赛(League)"
+    },
+    "Rel123": {
+        "Chinese": "唱片公司",
+        "Chinese-v": "发行",
+        "English": "Record Label",
+        "Description": "与营销相关的品牌和商标,通常用于音乐录音和音乐视频",
+        "Examples": "音乐录音或音乐视频(Music Recording or Music Video)-唱片公司(Record Label)"
+    },
+    "Rel124": {
+        "Chinese": "发行商",
+        "Chinese-v": "发行",
+        "English": "Distributor",
+        "Description": "表示创意作品的发行商；唱片公司的发行商",
+        "Examples": "创意作品(Creative Work)-发行商(Distributor)"
+    },
+    "Rel125": {
+        "Chinese": "联赛或赛事赛季",
+        "Chinese-v": "是...赛季",
+        "English": "Sports Season of League or Competition",
+        "Description": "表示该项目属于哪个联赛或赛事的赛季。使用P5138表示“俱乐部或球队的赛季”。",
+        "Examples": "赛季(Season)-联赛或赛事赛季(Sports Season of League or Competition)"
+    },
+    "Rel126": {
+        "Chinese": "分类等级",
+        "Chinese-v": "属于分类等级",
+        "English": "Taxon Rank",
+        "Description": "表示在分类学层级中的等级",
+        "Examples": "生物分类单元(Taxon)-分类等级(Taxon Rank)"
+    },
+    "Rel127": {
+        "Chinese": "工作领域",
+        "Chinese-v": "专注于",
+        "English": "Field of Work",
+        "Description": "表示个人或组织的专业领域；参见P106职业",
+        "Examples": "个人或组织(Person or Organization)-工作领域(Field of Work)"
+    },
+    "Rel128": {
+        "Chinese": "作品或名称的语言",
+        "Chinese-v": "使用语言",
+        "English": "Language of Work or Name",
+        "Description": "与此创意作品（如书籍、节目、歌曲或网站）或名称相关的语言（对于人物使用P103和P1412）",
+        "Examples": "创意作品或名称(Creative Work or Name)-语言(Language of Work or Name)"
+    },
+    "Rel129": {
+        "Chinese": "适用辖区",
+        "Chinese-v": "适用于",
+        "English": "Applies to Jurisdiction",
+        "Description": "表示该项目（如机构、法律、公共职务等）或声明属于、拥有权力或适用于特定的辖区（如国家、州、市等）",
+        "Examples": "项目(Item)-适用辖区(Jurisdiction)"
+    },
+    "Rel130": {
+        "Chinese": "代表作",
+        "Chinese-v": "创作了",
+        "English": "Notable Work",
+        "Description": "表示主体的显著科学、艺术或文学作品,或其他具有重要意义的作品",
+        "Examples": "人物(Person)-代表作(Notable Work)"
+    },
+    "Rel131": {
+        "Chinese": "团队中的位置/特长",
+        "Chinese-v": "担任",
+        "English": "Position Played on Team / Speciality",
+        "Description": "表示团队中选手的位置或特长,例如小前锋",
+        "Examples": "球员(Player)-位置(Position Played on Team / Speciality)"
+    },
+    "Rel132": {
+        "Chinese": "竞赛类别",
+        "Chinese-v": "属于",
+        "English": "Competition Class",
+        "Description": "由监管机构进行的官方分类,规定事件、团队、参与者或设备的资格",
+        "Examples": "事件、团队、参与者或设备(Event, Team, Participant, or Equipment)-竞赛类别(Competition Class)"
+    },
+    "Rel133": {
+        "Chinese": "穿越",
+        "Chinese-v": "穿越",
+        "English": "Crosses",
+        "Description": "表示桥梁跨越或隧道穿越的障碍（如水体、道路等）",
+        "Examples": "桥梁或隧道(Bridge or Tunnel)-穿越(Crosses)"
+    },
+    "Rel134": {
+        "Chinese": "电影或电视节目的原始语言",
+        "Chinese-v": "创作于",
+        "English": "Original Language of Film or TV Show",
+        "Description": "表示电影或表演作品最初创作的语言。不适用于书面作品,书面作品使用P407（“作品或名称的语言”）。",
+        "Examples": "电影或电视节目(Film or TV Show)-原始语言(Original Language)"
+    },
+    "Rel135": {
+        "Chinese": "声部类型",
+        "Chinese-v": "属于",
+        "English": "Voice Type",
+        "Description": "表示个人的声部类型。预期值包括：女高音,次女高音,女低音,假声男高音,男高音,男中音,男低音（及其衍生类型）",
+        "Examples": "歌手(Singer)-声部类型(Voice Type)"
+    },
+    "Rel136": {
+        "Chinese": "军衔",
+        "Chinese-v": "获得",
+        "English": "Military Rank",
+        "Description": "表示个人获得的军衔（通常应有“开始时间”限定符）,或与职位相关的军衔",
+        "Examples": "军人(Person)-军衔(Military Rank)"
+    },
+    "Rel137": {
+        "Chinese": "成员",
+        "Chinese-v": "属于",
+        "English": "Member of",
+        "Description": "表示主体所属的组织或俱乐部。不适用于民族或社会团体的成员身份,也不适用于担任议员等职位（应使用P39）",
+        "Examples": "个人(Person)-成员(Member of)"
+    },
+    "Rel138": {
+        "Chinese": "主题",
+        "Chinese-v": "为主题",
+        "English": "Main Subject",
+        "Description": "作品的主要话题（另见P180：描绘）",
+        "Examples": "书籍(Book)-主题(Main Subject)"
+    },
+    "Rel139": {
+        "Chinese": "省会",
+        "Chinese-v": "是省会",
+        "English": "/location/cn_province/capital",
+        "Description": "指省份的省会",
+        "Examples": "省份(Province)-省会(Capital of Province)"
+    },
+    "Rel140": {
+        "Chinese": "国家/地区内的省/州",
+        "Chinese-v": "包括",
+        "English": "/base/locations/countries/states_provinces_within",
+        "Description": "指一个国家或地区内的省份或州",
+        "Examples": "国家或地区(Country or Region)-省份或州(States/Provinces)"
+    },
+    "Rel141": {
+        "Chinese": "电影节所在地",
+        "Chinese-v": "举办",
+        "English": "/film/film_festival/location",
+        "Description": "指电影节举办的地点",
+        "Examples": "电影节(Film Festival)-地点(Location)"
+    },
+    "Rel142": {
+        "Chinese": "人种",
+        "Chinese-v": "属于",
+        "English": "People",
+        "Description": "指特定人种的人",
+        "Examples": "人种(Ethnicity)-人(People)"
+    },
+    "Rel143": {
+        "Chinese": "体育队所在地",
+        "Chinese-v": "位于",
+        "English": "/sports/sports_team/location",
+        "Description": "指体育队所在的地点",
+        "Examples": "体育队(Sports Team)-所在地(Location)"
+    },
+    "Rel144": {
+        "Chinese": "公司顾问",
+        "Chinese-v": "为公司提供咨询",
+        "English": "/business/company_advisor/companies_advised",
+        "Description": "指公司顾问提供咨询服务的公司",
+        "Examples": "公司顾问(Company Advisor)-为公司提供咨询(Companies Advised)"
+    },
+    "Rel145": {
+        "Chinese": "行政区划所属国家",
+        "Chinese-v": "位于",
+        "English": "/location/administrative_division/country",
+        "Description": "指行政区划所属的国家",
+        "Examples": "行政区划(Administrative Division)-所属国家(Country)"
+    },
+    "Rel146": {
+        "Chinese": "公司所属行业",
+        "Chinese-v": "属于",
+        "English": "Industry of Company",
+        "Description": "指公司所属的行业",
+        "Examples": "公司(Company)-所属行业(Industry)"
+    },
+    "Rel147": {
+        "Chinese": "州首府",
+        "Chinese-v": "是州首府",
+        "English": "/location/br_state/capital",
+        "Description": "指州的首府",
+        "Examples": "州(State)-首府(Capital)"
+    },
+    "Rel148": {
+        "Chinese": "购物中心业主",
+        "Chinese-v": "拥有",
+        "English": "/business/shopping_center_owner/shopping_centers_owned",
+        "Description": "指购物中心业主拥有的购物中心",
+        "Examples": "购物中心业主(Shopping Center Owner)-拥有的购物中心(Shopping Centers Owned)"
+    },
+    "Rel149": {
+        "Chinese": "地理分布",
+        "Chinese-v": "分布在",
+        "English": "/people/ethnicity/geographic_distribution",
+        "Description": "指特定人种的地理分布",
+        "Examples": "人种(Ethnicity)-地理分布(Geographic Distribution)"
+    },
+    "Rel150": {
+        "Chinese": "大股东",
+        "Chinese-v": "拥有",
+        "English": "/business/company/major_shareholders",
+        "Description": "指公司的大股东",
+        "Examples": "公司(Company)-大股东(Major Shareholders)"
+    },
+    "Rel151": {
+        "Chinese": "制片地点",
+        "Chinese-v": "位于",
+        "English": "/broadcast/producer/location",
+        "Description": "指制片人的地点",
+        "Examples": "制片人(Producer)-地点(Location)"
+    },
+    "Rel152": {
+        "Chinese": "电影拍摄地",
+        "Chinese-v": "在",
+        "English": "/film/film/featured_film_locations",
+        "Description": "指电影中出现的拍摄地",
+        "Examples": "电影(Film)-拍摄地(Featured Film Locations)"
+    },
+    "Rel153": {
+        "Chinese": "事件地点",
+        "Chinese-v": "发生在",
+        "English": "/time/event/locations",
+        "Description": "指事件发生的地点",
+        "Examples": "事件(Event)-地点(Locations)"
+    },
+    "Rel154": {
+        "Chinese": "行政区划",
+        "Chinese-v": "包括",
+        "English": "/location/country/administrative_divisions",
+        "Description": "指国家的行政区划",
+        "Examples": "国家(Country)-行政区划(Administrative Divisions)"
+    },
+    "Rel155": {
+        "Chinese": "工具-代理",
+        "Chinese-v": "使用",
+        "English": "Instrument-Agency(e2,e1)",
+        "Description": "表示e1使用e2作为工具",
+        "Examples": "工具(Instrument)-代理(Agency)"
+    },
+    "Rel156": {
+        "Chinese": "成员-集合",
+        "Chinese-v": "属于",
+        "English": "Member-Collection(e1,e2)",
+        "Description": "表示e1是e2的成员",
+        "Examples": "成员(Member)-集合(Collection)"
+    },
+    "Rel157": {
+        "Chinese": "因果关系",
+        "Chinese-v": "导致",
+        "English": "Cause-Effect(e2,e1)",
+        "Description": "表示e1是e2的结果",
+        "Examples": "原因(Cause)-结果(Effect)"
+    },
+    "Rel158": {
+        "Chinese": "实体-目的地",
+        "Chinese-v": "前往",
+        "English": "Entity-Destination(e1,e2)",
+        "Description": "表示e1是前往e2的实体",
+        "Examples": "实体(Entity)-目的地(Destination)"
+    },
+    "Rel159": {
+        "Chinese": "内容-容器",
+        "Chinese-v": "包含于",
+        "English": "Content-Container(e1,e2)",
+        "Description": "表示e1包含在e2中",
+        "Examples": "内容(Content)-容器(Container)"
+    },
+    "Rel160": {
+        "Chinese": "信息-主题",
+        "Chinese-v": "关于",
+        "English": "Message-Topic(e1,e2)",
+        "Description": "表示e1是关于e2的信息",
+        "Examples": "信息(Message)-主题(Topic)"
+    },
+    "Rel161": {
+        "Chinese": "产品-生产者",
+        "Chinese-v": "生产",
+        "English": "Product-Producer(e2,e1)",
+        "Description": "表示e2是e1生产的产品",
+        "Examples": "产品(Product)-生产者(Producer)"
+    },
+    "Rel162": {
+        "Chinese": "实体-起源",
+        "Chinese-v": "起源于",
+        "English": "Entity-Origin(e1,e2)",
+        "Description": "表示e1起源于e2",
+        "Examples": "实体(Entity)-起源(Origin)"
+    },
+    "Rel163": {
+        "Chinese": "原因-结果",
+        "Chinese-v": "导致",
+        "English": "Cause-Effect",
+        "Description": "表示e1导致了e2",
+        "Examples": "原因(Cause)-结果(Effect)"
+    },
+    "Rel164": {
+        "Chinese": "参赛队伍",
+        "Chinese-v": "参赛",
+        "English": "Participating Team",
+        "Description": "指参与比赛或赛事的队伍",
+        "Examples": "比赛(Event)-参赛队伍(Participating Team)"
+    },
+    "Rel165": {
+        "Chinese": "运动",
+        "Chinese-v": "属于",
+        "English": "Movement",
+        "Description": "指艺术、文学或思想运动的所属关系",
+        "Examples": "印象派(Impressionism)-运动(Movement)"
+    },
+    "Rel166": {
+        "Chinese": "根据作品",
+        "Chinese-v": "根据",
+        "English": "After a Work By",
+        "Description": "指受到某作品强烈启发或模仿的关系",
+        "Examples": "此作品-根据作品(After a Work By)"
+    },
+    "Rel167": {
+        "Chinese": "广播许可区域",
+        "Chinese-v": "被许可广播到",
+        "English": "Licensed to Broadcast To",
+        "Description": "指广播或电视台被许可或要求广播的区域",
+        "Examples": "电台(Radio Station)-广播许可区域(Licensed to Broadcast To)"
+    },
+    "Rel168": {
+        "Chinese": "参与者",
+        "Chinese-v": "参与",
+        "English": "Participant",
+        "Description": "指积极参与某个事件或过程的人、团体或组织",
+        "Examples": "会议(Conference)-参与者(Participant)"
+    },
+    "Rel169": {
+        "Chinese": "操作系统",
+        "Chinese-v": "使用操作系统",
+        "English": "Operating System",
+        "Description": "指软件运行或硬件安装的操作系统",
+        "Examples": "软件(Software)-操作系统(Operating System)"
+    },
+    "Rel170": {
+        "Chinese": "平台",
+        "Chinese-v": "运行于",
+        "English": "Platform",
+        "Description": "指开发或发布作品的平台,或软件产品的特定平台版本",
+        "Examples": "游戏(Game)-平台(Platform)"
+    },
+    "Rel171": {
+        "Chinese": "穿过",
+        "Chinese-v": "穿过",
+        "English": "Crosses",
+        "Description": "指桥梁穿过的障碍物（如水体、道路等）",
+        "Examples": "桥(Bridge)-河流(River)"
+    },
+    "Rel172": {
+        "Chinese": "运动",
+        "Chinese-v": "进行",
+        "English": "Sport",
+        "Description": "指该主体参与的运动项目",
+        "Examples": "运动员(Athlete)-篮球(Basketball)"
+    },
+    "Rel173": {
+        "Chinese": "星座",
+        "Chinese-v": "属于",
+        "English": "Constellation",
+        "Description": "指天体属于的星座区域",
+        "Examples": "天体(Celestial body)-猎户座(Orion)"
+    },
+    "Rel174": {
+        "Chinese": "立法机构",
+        "Chinese-v": "隶属于",
+        "English": "Legislative Body",
+        "Description": "主体隶属于的立法机构",
+        "Examples": "国家(Country)-国会(Parliament)"
+    },
+    "Rel175": {
+        "Chinese": "叙事地点",
+        "Chinese-v": "位于",
+        "English": "Narrative Location",
+        "Description": "故事或事件发生的地点",
+        "Examples": "小说(Novel)-城市(City)"
+    },
+    "Rel176": {
+        "Chinese": "适用管辖区",
+        "Chinese-v": "适用于",
+        "English": "Applies to Jurisdiction",
+        "Description": "项目所属或有权力的管辖区",
+        "Examples": "法律(Law)-国家(Country)"
+    },
+    "Rel177": {
+        "Chinese": "洲",
+        "Chinese-v": "位于",
+        "English": "Continent",
+        "Description": "地理实体所属的大陆",
+        "Examples": "中国(China)-亚洲(Asia)"
+    },
+    "Rel178": {
+        "Chinese": "位于行政区",
+        "Chinese-v": "位于",
+        "English": "Located in the administrative territorial entity",
+        "Description": "该项目位于指定的行政区内",
+        "Examples": "故宫(Palace Museum)-北京市(Beijing)"
+    },
+    "Rel179": {
+        "Chinese": "演员",
+        "Chinese-v": "主演",
+        "English": "Cast member",
+        "Description": "电影、电视剧、戏剧等中的演员",
+        "Examples": "电影(电影作品) - 演员(人物)"
+    },
+    "Rel180": {
+        "Chinese": "系列",
+        "Chinese-v": "属于",
+        "English": "Series",
+        "Description": "属于某一系列作品",
+        "Examples": "电视剧(Episode)-电视剧系列(TV Series)"
+    },
+    "Rel181": {
+        "Chinese": "创作者",
+        "Chinese-v": "创作",
+        "English": "Creator",
+        "Description": "创造某项作品的个人或团体",
+        "Examples": "电影(电影作品) - 导演(人物)"
+    },
+    "Rel182": {
+        "Chinese": "姐妹城市",
+        "Chinese-v": "姐妹城市",
+        "English": "Sister city",
+        "Description": "两个城市之间结成的姐妹城市关系",
+        "Examples": "北京(Beijing)-华盛顿特区(Washington, D.C.)"
+    },
+    "Rel183": {
+        "Chinese": "流域国家",
+        "Chinese-v": "所属",
+        "English": "Basin country",
+        "Description": "该地理特征所在的流域国家",
+        "Examples": "尼罗河(Nile River)-埃及(Egypt)"
+    },
+    "Rel184": {
+        "Chinese": "作品的原始语言",
+        "Chinese-v": "原始语言",
+        "English": "Original language of work",
+        "Description": "作品最初创作时所使用的语言",
+        "Examples": "书籍(Book)-英语(English)"
+    },
+    "Rel185": {
+        "Chinese": "时间点",
+        "Chinese-v": "时间点",
+        "English": "Point in Time",
+        "Description": "事件或情况发生的具体时间点",
+        "Examples": "事件(Event)-2022年3月15日(March 15, 2022)"
+    },
+    "Rel186": {
+        "Chinese": "冲突",
+        "Chinese-v": "冲突",
+        "English": "Conflict",
+        "Description": "涉及实体之间的争斗或战争",
+        "Examples": "战争(War)-冲突(Conflict)"
+    },
+    "Rel187": {
+        "Chinese": "分离自",
+        "Chinese-v": "分离自",
+        "English": "Separated from",
+        "Description": "从某个实体分离出来",
+        "Examples": "国家(Country) - 分离自(Separated from) - 苏联(Soviet Union)"
+    },
+    "Rel188": {
+        "Chinese": "宣称领土",
+        "Chinese-v": "宣称领土",
+        "English": "Territory claimed by",
+        "Description": "声称拥有该领土的国家或实体",
+        "Examples": "领土(Territory) - 宣称领土(Territory claimed by) - 国家(Country)"
+    },
+    "Rel189": {
+        "Chinese": "使用的语言",
+        "Chinese-v": "使用的语言",
+        "English": "Languages spoken, written or signed",
+        "Description": "人物或组织所使用的语言",
+        "Examples": "人物(Person) - 使用的语言(Languages spoken, written or signed) - 语言(Language)"
+    },
+    "Rel190": {
+        "Chinese": "存在于作品中",
+        "Chinese-v": "存在于作品中",
+        "English": "Present in work",
+        "Description": "人物、角色或元素出现在特定作品中",
+        "Examples": "人物(Person) - 存在于作品中(Present in work) - 作品(Work)"
+    },
+    "Rel191": {
+        "Chinese": "简称",
+        "Chinese-v": "简称",
+        "English": "Abbreviation",
+        "Description": "指定某个机构或实体的简称",
+        "Examples": "机构(Organization) - 简称(Abbreviation) - 简称(Abbreviation)"
+    }
+}

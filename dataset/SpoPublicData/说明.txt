@@ -1,0 +1,53 @@
+2、SemEval实体关系数据集
+    SemEval数据集是2010年国际语义评测大会中Task8任务所使用的数据集，共包括Cause-Effect(因果关系)、Instrument-Agency(操作、使用关系)、Product-Producer(产品-生产者关系)、 Content-Container(空间包含关系)、Entity-Origin(起源关系)、Entity-Destination(导向关系)、 Component-Whole(组件-整体关系)、Member-Collection(成员-集合关系)、Message-Topic(主题关系)等10类关系。
+    该数据集包括8000个训练样本，2717个测试样本。
+    安装：
+    mkdir semeval
+    wget -P semeval https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/semeval/semeval_rel2id.json
+    wget -P semeval https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/semeval/semeval_train.txt
+    wget -P semeval https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/semeval/semeval_val.txt
+    wget -P semeval https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/semeval/semeval_test.txt
+
+3、FewRel实体关系数据集
+    FewRel是清华大学于2018年发布的精标注关系抽取数据集，是当前规模最大的中文实体关系数据集。
+    该数据集包括100个关系类别、70,000个关系实例。每句的平均长度为24.99，一共出现 124,577 个不同的单词/符号。
+    安装：
+    mkdir fewrel
+    wget -P fewrel https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/fewrel/fewrel_train.txt
+    wget -P fewrel https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/fewrel/fewrel_train_rel2id.json
+    wget -P fewrel https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/fewrel/fewrel_val.txt
+    wget -P fewrel https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/fewrel/fewrel_val_rel2id.json
+
+4、Wiki80实体关系数据集
+    Wiki80是从数据集FewRel上提取的一个关系数据集，共包含location、part of、follows等80种关系，每种关系个数均为700，共56000个样本。
+    该数据集50400条训练集、5600条验证集。
+    安装：
+    mkdir wiki80
+    wget -P wiki80 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/wiki80/wiki80_rel2id.json
+    wget -P wiki80 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/wiki80/wiki80_train.txt
+    wget -P wiki80 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/wiki80/wiki80_val.txt
+
+5、NYT10实体关系数据集
+    NYT10是在基于远程监督的关系抽取任务上最常用的数据集，由NYT corpus 在2010年基于Freebase远程监督得到的，共包含founders、place_of_birth在内的53种关系（包括一种NA），存在一定的噪声。
+    该数据集包括466876条训练集、55167条验证集以及172448条测试集。
+    安装：
+    mkdir nyt10
+    wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_rel2id.json
+    wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_train.txt
+    wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_test.txt
+
+6、DuIE2.0实体关系数据集
+    DuIE2.0是业界规模最大的基于schema的中文关系抽取数据集，来自百度百科、百度贴吧和百度信息流文本。
+    该数据集包含超过43万三元组数据、21万中文句子及48个预定义的关系类型。
+    该数据集包括171135个训练集、21055个测试数据，外加80184条混淆数据。
+    安装：https://www.luge.ai/#/luge/dataDetail?id=5
+
+7、Chinese Literature Text文档级实体关系数据集
+    Chinese Literature Text是面向中文文学的一个实体关系数据集，标注了物体、人名、地名、时间名、容量名、组织和摘要共7类实体，位于、部分、家庭、概括、社会、拥有、使用、制造、邻接等9类实体关系。
+    该数据集共计726篇文章，29096句话，超过100000个字符。训练集695篇，验证集58篇、测试集84篇。
+    安装：https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset
+
+10、DocRED文档级实体关系数据集
+    DocRED是基于维基百科的文档级关系抽取数据集，数据集中每个文档都被标注了命名实体提及、核心参考信息、句内和句间关系以及支持证据。关系类型涉及科学、艺术、时间、个人生活在内的96种Wikidata关系类型。
+    该数据集在5053个维基百科文档上进行标注，包含132375个实体和56354个关系事实。
+    安装：https://drive.google.com/drive/folders/1c5-0YwnoJx8NS6CV2f-NoTHR__BdkNqw
