@@ -1,0 +1,67 @@
+openai.api_key = "sk-Z9QMCPRW9QC40gYI5803581aD3604023831b7b039597E98b" ## note: An OpenAI API key needs to be added here
+http网址 = "https://ai-yyds.com/login"
+密码：6cf8d3d83940
+账号：1641571228@qq.com
+版本：openai==0.27.2
+模型参考：https://blog.aihubplus.com/post/differences-between-openai-chatgpt/
+报错：
+chatgpt调用api接口出现连接不上的错误：
+    urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:1131)  The above exception was the direct cause of the following exception:  urllib3.exceptions.ProxyError: ('Unable to connect to proxy', SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1131)')))  The above exception was the direct cause of the following exception:
+    修改：降低版本 -- installed urllib3-1.25.11
+
+使用：
+    def get_chat_messages(self, prompt_text, model="gpt-3.5-turbo", max_tokens=2000, temperature=0.5):
+        """调用ChatGPT生成对话回复"""
+        openai.api_base = "https://ai-yyds.com/v1"  #网址设置，官网不加
+        openai.api_key = self.api_key
+        response = openai.ChatCompletion.create(
+            model=model,
+            messages=prompt_text,
+            max_tokens=max_tokens,
+            n=1,
+            stop=None,
+            temperature=temperature,
+        )
+        return response.choices[0].message.content
+
+        prompt1 = f"【Prompt1】: \n现在我有一个实体关系，请你判断文本: {text}。中所包含哪几种类型的元组类型：{text}\n"
+        step1_prompt = [
+            {"role": "system", "content": "你是时空模式匹配和知识表示方面的专家。"},
+            {"role": "user", "content": prompt1}
+        ]
+        step1_response = self.get_chat_messages(step1_prompt)
+        print(f"【ChatGPT】: \n{step1_response}")
+
+关键信息：
+    STC:
+        {'(地点, 人口数量, Number)': {'STC_T': 'Strong', 'STC_S': 'Strong'}, '(地点, 面积, Number)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(国家, 首都, 城镇)': {'STC_T': 'Strong', 'STC_S': 'Medium'}, '(地点, 编码, Text)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(组织机构, 创始人, 人物)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(地点, 年平均气温, Number)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(地点, 海拔, Number)': {'STC_T': 'Weak', 'STC_S': 'Medium'}, '(民族, 信仰, 宗教)': {'STC_T': 'Medium', 'STC_S': 'Strong'}, '(地点, 地貌, 自然地理)': {'STC_T': 'Strong', 'STC_S': 'Strong'}, '(地点, 岩性, 自然地理)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(地点, 绿化面积, Number)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(地点, 地形, 自然地理)': {'STC_T': 'Medium', 'STC_S': 'Strong'}, '(节日, 习俗, 民俗)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(地点, 降雨量, Number)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(河流, 所属水系, 河流)': {'STC_T': 'Weak', 'STC_S': 'Medium'}, '(山脉, 主峰, 山峰)': {'STC_T': 'Medium', 'STC_S': 'Strong'}, '(河流, 支流, 河流)': {'STC_T': 'Medium', 'STC_S': 'Strong'}, '(水利工程, 水库总库容, Number)': {'STC_T': 'Strong', 'STC_S': 'Strong'}, '(地点, 辖, 地点)': {'STC_T': 'Medium', 'STC_S': 'Medium'}, '(地点, GDP总计, Number)': {'STC_T': 'Strong', 'STC_S': 'Strong'}, '(地点, 气候, 气候)': {'STC_T': 'Strong', 'STC_S': 'Medium'}, '(生物, 目, 目)': {'STC_T': 'Medium', 'STC_S': 'Medium'}}
+    spoType:
+        ['(地点, 人口数量, Number)', '(地点, 面积, Number)', '(国家, 首都, 城镇)', '(地点, 编码, Text)', '(组织机构, 创始人, 人物)', '(地点, 年平均气温, Number)', '(地点, 海拔, Number)', '(民族, 信仰, 宗教)', '(地点, 地貌, 自然地理)', '(地点, 岩性, 自然地理)', '(地点, 绿化面积, Number)', '(地点, 地形, 自然地理)', '(节日, 习俗, 民俗)', '(地点, 降雨量, Number)', '(河流, 所属水系, 河流)', '(山脉, 主峰, 山峰)', '(河流, 支流, 河流)', '(水利工程, 水库总库容, Number)', '(地点, 辖, 地点)', '(地点, GDP总计, Number)', '(地点, 气候, 气候)', '(生物, 目, 目)']
+
+Prompt1:
+    prompt1 = f"现在我有一个实体关系三元组类型表spoTypeTable: {self.spoType}\n，" \
+                      f"请你判断出文本”{text}“中包含其中哪几种类型的元组类型，并抽取出文本对应元组类型的实体关系三元组\n" \
+                      f"（其中，spo是一种用来表示知识的数据结构，常用（S，P，O）表示，其中S和O为抽象概念或现实世界中的实体对象，而P则表示属性或S与O之间的关系，例如，（中国，首都，北京）。" \
+                      f"spoType指三元组中的元素所属的类别或概念，用spo_type =（Stype，P，Otype）表示。例如，（中国，首都，北京）这个三元组的类型是（国家，首都，城市））\n"
+    assistant1 = "1. spo1: ...; spoType1: ...;\n" \
+                 "2. spo2: ...; spoType2: ...;\n" \
+                 "3. ..."
+
+Prompt2:
+     prompt2 = f"首先，我们定义了时空关联度的概念，是指一条知识（元组）与时间和空间信息的紧密程度，分为以下三种：一是时空弱关联，即知识几乎不受时空条件的限制；二是时空中度关联，即知识具有时空属性信息，与时空信息有着比较紧密的关联；三是时空强关联，即知识与时空信息有着非常紧密的关联，一旦时空发生变化，其知识表达的内涵也随之改变。\n\t" \
+           f"然后对上述抽取结果: {step1_response}\n" \
+           f"进行时空关联度模式匹配，其中时空关联度模式如下STC:\n\t {self.STC}\n\t" \
+           f"其中, spo表示文本中所抽取的三元组; spoType表示三元组spo所对应的元组类型; spoTypeSTC表示元组类型所对应时空关联度" \
+           f"根据不同的元组时空关联程度，元组的结构化描述具有不同的表达模型，以下为具体时空表达模型模板：\n\t" \
+           f"1、弱时空关联的知识基本上与时空信息无关(STC_T: Weak, STC_S: Weak)，其知识表达模型如下: STtuple = (S, P, O);\n\t" \
+           f"2、与时空中度关联(STC_T: Medium, STC_S: Medium)的时空知识元组表达模型如下: STtuple = (S, P, O), {{A_T, A_L}}。其中，A_T 为时间属性，A_L 为空间属性，A_n 为其他属性，即时间和空间作为一般的属性信息分别记录在不同的元组中;\n\t" \
+           f"3、仅与时间强关联(STC_T: Strong)，则时间加入元组，与空间弱关联(STC_S: Weak)，则不考虑空间，其时空知识元组表达模型如下: STtuple = (S, P, O, T)。其中T表示(S, P, O)在文本中对应的时间;\n\t" \
+           f"4、仅与空间强关联(STC_S: Strong)，则空间加入元组，与时间弱关联(STC_T: Weak)，则不考虑时间，其时空知识元组表达模型如下: STtuple = (S, P, O, L)。其中L表示(S, P, O)在文本中对应的空间;\n\t" \
+           f"5、仅与时间强关联(STC_T: Strong)，则时间加入元组，与空间中关联(STC_S: Medium)，则时间作为元组的属性，不加入元组，其时空知识元组表达模型如下: STtuple = (S, P, O, T),{{A_L}}。其中T表示(S, P, O)在文本中对应的时间，A_L为空间属性;\n\t" \
+           f"6、仅与空间强关联(STC_S: Strong)，则空间加入元组，与时间弱关联(STC_T: Medium)，则时间作为元组的属性，不加入元组，其时空知识元组表达模型如下: STtuple = (S, P, O, L),{{A_T}}。其中T表示(S, P, O)在文本中对应的时间，A_T为空间属性;\n\t" \
+           f"7、与时间、空间都强关联(STC_T: Strong, STC_S: Strong)，则时间和空间均加入元组，其时空知识元组表达模型如下: STtuple = (S, P, O, T, L)。其中T表示(S, P, O)在文本中对应的时间, 其中L表示(S, P, O)在文本中对应的空间;\n\t" \
+           f"现在需要你对文本”{text}“中抽取的每个元组根据模式匹配结果pm_results，加入相应的具体时空信息（若未抽取到时间或空间则以None代替），构建时空知识表达模型："
+     assistant2 = "1. spo1: ...; spoType1: ...;spoTypeSTC1: ...; STtuple1:\n" \
+                 "2. spo2: ...; spoType2: ...;spoTypeSTC2: ...; STtuple2:\n" \
+                 "3. ..."
+

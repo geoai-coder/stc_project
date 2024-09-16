@@ -1,0 +1,12 @@
+{
+    "testdata_stats": {
+        "num_elements": 220,
+        "avg_length": 52.75,
+        "vocab_size": 27.5
+    },
+    "traindata_stats": {
+        "num_elements": 46,
+        "avg_length": 55.26,
+        "vocab_size": 28.3
+    }
+}
