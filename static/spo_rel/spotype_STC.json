@@ -1,0 +1,90 @@
+{
+    "(行政区, GDP总计, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(山脉, 主峰, 山峰)": {
+        "STC_T": "Weak",
+        "STC_S": "Strong"
+    },
+    "(行政区, 人口, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(地点, 位于, 地点)": {
+        "STC_T": "Weak",
+        "STC_S": "Strong"
+    },
+    "(民族, 信仰, 宗教)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(组织机构, 创始人, 人物)": {
+        "STC_T": "Medium",
+        "STC_S": "Medium"
+    },
+    "(地点, 地貌, 地形地貌)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(地点, 年平均气温, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(地点, 年平均降雨量, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(河流, 所属水系, 河流)": {
+        "STC_T": "Weak",
+        "STC_S": "Strong"
+    },
+    "(人物, 提出, 概念)": {
+        "STC_T": "Medium",
+        "STC_S": "Medium"
+    },
+    "(地点, 森林覆盖率, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(概念, 概念, 字词)": {
+        "STC_T": "Weak",
+        "STC_S": "Weak"
+    },
+    "(地点, 气候, 气候)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(水利工程, 水库总库容, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(河流, 流域面积, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(地点, 海拔, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(地点, 经纬度, 数值)": {
+        "STC_T": "Weak",
+        "STC_S": "Strong"
+    },
+    "(行政区, 行政代码, 字词)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(行政区, 辖, 行政区)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(行政区, 面积, 数值)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    },
+    "(国家, 首都, 城镇)": {
+        "STC_T": "Strong",
+        "STC_S": "Strong"
+    }
+}
