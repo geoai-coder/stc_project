@@ -1,0 +1,44 @@
+{
+    "encdataset": {
+        "baidu_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\dataset\\EncyclopediaData\\baidu and st _v2\\baidu_split_v2.txt",
+        "dbpedia_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\dataset\\EncyclopediaData\\DBpedia\\baike_triples.txt",
+        "pkupie_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\dataset\\EncyclopediaData\\PKU-PIE\\firstreleaseowl.owl",
+        "wiki_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\dataset\\EncyclopediaData\\wiki_split_cws\\wikiSplit.txt"
+    },
+    "dataset": {
+        "gpt_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\dataset\\GptDatas",
+        "geo_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\dataset\\GeoRelData\\add_Text"
+    },
+    "loggerpath": {
+        "logger_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\logger"
+    },
+    "modelpath": {
+        "bert_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\model\\bert-base-chinese",
+        "ltp_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\model\\ltp\\base"
+    },
+    "static": {
+        "static_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static",
+        "lexicon_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\lexicon.txt",
+        "stop_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\stopwords.txt",
+        "relation_synonyms_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\relation_same.json",
+        "relation_synonyms_reverse_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\relation_same_reverse.json",
+        "relstatic_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\spo_rel",
+        "rel_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\spo_rel\\cnDBpedia_relation_select22.csv",
+        "spotype_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\spo_rel\\spoType.csv",
+        "stc_schema_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\ctgucode\\static\\spo_rel\\spotype_STC.json"
+    },
+    "resultpath": {
+        "pattern_matching_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_pm",
+        "stc_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc",
+        "stc_allanalysis_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc\\allDataAnalysis",
+        "stc_bootstrapAnalyse_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc\\bootstrapAnalyse",
+        "stc_dbpediaAnalyse_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc\\dbpediaAnalyse",
+        "stc_dynsemantic_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc\\dynsemanticAnalyse",
+        "stc_DynSemanticPlot_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc\\DynSemanticPlot",
+        "stc_StatisticalPlot_path": "F:\\4-2022-2025\\论文and实验\\Li1_2023.12\\results_stc\\StatisticalPlot"
+    },
+    "api": {
+        "filenum": "file_number",
+        "input_path_template": "GeoRelAnalyseBootstrap_{filenum}.json"
+    }
+}
