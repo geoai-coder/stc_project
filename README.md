@@ -55,7 +55,7 @@ To use GeoAI Coder, please follow these steps:
    - Ensure the dataset format complies with project requirements.
 
 3. **Run Scripts**: Execute the scripts in the corresponding folders as needed.
-   - Use command line tools to run `main_stc_pm.py` or other scripts.
+   - Use command line tools to run `main_stc_pm.py`.
 
 4. **View Documentation**: Refer to `Documentation0929_en.md` for detailed instructions.
    - The document provides detailed guidelines for project use and development.
